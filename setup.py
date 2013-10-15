@@ -7,7 +7,7 @@ README = open(os.path.join(here, 'README.txt')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = ['pyramid>=1.1', 'WebError', 'FormAlchemy>=1.3.8', 'Babel',
-            'zope.component']
+            'zope.component', 'chameleon']
 
 version = '0.4.4dev'
 
